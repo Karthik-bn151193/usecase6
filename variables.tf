@@ -17,7 +17,7 @@ variable "vpc_id" {
 variable "private_subnet_ids" {
   type        = list(string)
   description = "A list of private subnet IDs for the Aurora cluster"
-  default = ["subnet-0d60f17ef3c678f24", "subnet-0d8aaf049924e623f"]
+  default = ["subnet-037ac2f49cfc721e4", "subnet-0d2213f8312c329bc"]
 }
 
 variable "aurora_engine" {
