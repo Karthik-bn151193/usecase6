@@ -47,7 +47,6 @@ jobs:
         run: tflint --init && tflint -f compact
         working-directory: ./
  
- 
       # Terraform Steps
       - name: Initialize Terraform
         id: init
