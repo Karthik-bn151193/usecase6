@@ -51,7 +51,7 @@ resource "aws_security_group" "aurora_sg" {
 }
 
 module "aurora_db" {
-  source = "./modules/aurora-cluster"
+  source = "./module/aurora-cluster"
 
   cluster_name                = "${var.project_name}-aurora"
   engine                      = var.aurora_engine
