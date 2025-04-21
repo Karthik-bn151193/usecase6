@@ -11,7 +11,7 @@ variable "project_name" {
 variable "vpc_id" {
   type        = string
   description = "The ID of the VPC to deploy into"
-  default = "vpc-06cab60814e52bf9c"
+  default = "vpc-0feb09ec941ba1ac9"
 }
 
 variable "private_subnet_ids" {
